@@ -11,12 +11,13 @@
     android:background="@color/tlo">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewPytanie"
         android:layout_width="wrap_content"
         android:layout_height="250dp"
         app:srcCompat="@drawable/geni" />
 
     <TextView
+        android:id="@+id/textViewPytanie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -30,7 +31,7 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonTak"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:text="TAK"
@@ -38,7 +39,7 @@
             android:backgroundTint="@color/jasnyRoz"/>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonNie"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:text="NIE"
@@ -63,7 +64,7 @@
             android:backgroundTint="@color/ciemnyRoz"/>
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buttonNastepne"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:text="Następne"
